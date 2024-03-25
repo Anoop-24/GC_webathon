@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Profile</title>
+ 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="profile.css">
+   
+</head>
+<body>
+    <div class="background">
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+    <form>
+        <div class="hambur">
+            <nav>
+                <div class="navbar">
+                  <div class="container nav-container">
+                      <input class="checkbox" type="checkbox" name="" id="checkboxes" />
+                      <div class="hamburger-lines">
+                        <span class="line line1"></span>
+                        <span class="line line2"></span>
+                        <span class="line line3"></span>
+                      </div>  
+                    <div class="logo">
+                      <h1>ERP</h1>
+                    </div>
+                    <div class="hamshow">
+                    <div class="menu-items">
+                      <li><a href="#">Course Registration</a></li>
+                      <li><a href="#">Attendance</a></li>
+                      <li><a href="#">Grading System</a></li>
+                      <li><a href="#">Feedback </a></li>
+                      <li><a href="#">Admin Feature</a></li>
+                      <button class="btn">Logout</button>
+                    </div>
+                </div>
+                  </div>
+                </div>
+              </nav>
+        </div>
+        <h3>Student Details</h3>
+        <div class="maincont">
+        
+         <div class="indelem">
+            <label for="username">Student Name</label>
+        <input type="text" placeholder="XYZ" id="username" readonly>
+         </div>
+        
+
+         <div class="indelem">
+            <label for="username">Roll Number</label>
+        <input type="text" placeholder="21*****4" id="Roll Number" readonly>
+         </div>
+
+         <div class="indelem">
+            <label for="username">programme</label>
+        <input type="text" placeholder="Btech" id="programme" readonly>
+         </div>
+
+         <div class="indelem">
+            <label for="username">School</label>
+        <input type="text" placeholder="School of ABCD" id="School" readonly>
+         </div>
+
+         <div class="indelem">
+            <label for="username">Gender</label>
+        <input type="text" placeholder="Male" id="Gender" readonly>
+         </div>
+
+         <div class="indelem">
+            <label for="username">Status</label>
+        <input type="text" placeholder="Student" id="Status" readonly>
+         </div>
+    </div>
+    </form>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="profile.js"></script>
+</body>
+</html>
